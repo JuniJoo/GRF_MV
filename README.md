@@ -1,9 +1,9 @@
 # GRF_MV:Ground Reaction Force Estimation from Monocular Video
 
-GRF estimated in GroundLink Dataset|GRF estimated from 3D mesh recovery by HybrIK-X
---|--
-<img src="assets/GroundLink_GRF.gif"> | <img src="assets/HybrIKX_resulted_video_GRF.gif">
-
+<div align="center">
+<img src="assets/GroundLink_GRF.gif" height="240">  <img src="assets/HybrIKX_resulted_video_GRF.gif" height="240"><br>
+    Estimated Ground Reaction Force from GroundLink dataset (Left) and monocular video with HybrIK-X (Right)
+</div>
 
 <div align="center">
 <a href="assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf">
@@ -12,7 +12,11 @@ GRF estimated in GroundLink Dataset|GRF estimated from 3D mesh recovery by HybrI
 </div>
 
 ## Project Description
-<img src="assets/overview.jpeg">
+<div align="center">
+<img src="assets/overview.jpeg" width="800" alt><br>
+    Pipeline overview of the project
+</div>
+
 This is the repository for the project "GRF_MV: Ground Reaction Force Estimation from Monocular Video" for final year personal project at the University of Birmingham. The project aims to estimate the Ground Reaction Force (GRF) from monocular video using a hybrid approach. The hybrid approach combines the strengths of two state-of-the-art methods, HybrIK-X and physics-based optimisation, to estimate the GRF. The results are evaluated on the GroundLink dataset and compared with the ground truth GRF. Visualisation of the estimated GRF is also provided in Unity.
 
 ## Installation instructions
@@ -121,6 +125,24 @@ To run Unity feet optimization:
 3, Select scenes from `GRF_NV Unity assets/Scenes` and run the scene.
 
 Please make sure to monitor scene tab for Ground Reaction Force visualization. Forces are extracted to console and saved at log file.
+
+## Results
+<div align="center">
+<img src="assets/HybrIK_sideway_wConst.gif" height="240"> <img src="assets/Hybrik_sideway_woConst.gif" height="240"><br>
+    With physics-based optimisation (Left) and without (Right)
+</div>
+Above shows the visualisation and its estimated Ground Reaction Force (GRF) from monocular video using a hybrid approach without and with constraints. 
+
+The accuracy of our estimtated GRF is evaluated on the GroundLink dataset and compared with the ground truth GRF. Visualisation of the estimated GRF is also provided in Unity.
+<div align="center">
+<img src="assets/chair.png" height="240"> <img src="assets/tennis_serve.png" height="240" alt><br>
+    Estimated Ground Reaction Force (Blue) and Ground Truth data from GroundLink dataset (Red) for two set of motions.
+</div>
+
+Please consider reading the [paper](assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf) for more details.
+
+## Acknowledgements
+We would like to thank the authors of HybrIK-X and GroundLink for their work and making it available to the public. We would also like to thank the Hyung Jin Chang and Esha Dasgupta for providing the resources and support for this project.
 
 ## Citation
 If you find this work useful, please consider citing:
