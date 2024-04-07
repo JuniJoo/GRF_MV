@@ -71,13 +71,7 @@ git clone git@github.com:eth-ait/aitviewer.git
 mv forceplate.py aitviewer/
 ```
 
-GroundLink Dataset can be downloaded from [GroundLink](https://csr.bu.edu/groundlink/). Also download [AMASS](https://amass.is.tue.mpg.de/) and place it under `Data/AMASS` directory.
-
-
-    ├── HybrIK
-    ├── GroundLink
-    ├── README.md
-    └── requirements.txt
+GroundLink Dataset can be downloaded from [GroundLink](https://csr.bu.edu/groundlink/) under the `$root/GroundLink` directory. Also download [AMASS](https://amass.is.tue.mpg.de/) and place it under `Data/AMASS` directory.
 GroundLink dataset needs to be downloaded from [GroundLink](https://github.com/hanxingjian/GroundLink) under the `$root/GroundLink` directory.
 
 For Unity [Motion](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER)
@@ -122,4 +116,11 @@ Please make sure to monitor scene tab for Ground Reaction Force visualization. F
 ## Citation
 If you find this work useful, please consider citing:
 ``` bibtex
+@misc{katsu2023grfmv,
+title={GRF_MV: Ground Reaction Force Estimation from Monocular Video},
+author={Juni Katsu and Esha Dasgupta and Hyung Jin Chang},
+year={2023},
+archivePrefix={arXiv},
+primaryClass={cs.CV}
+}
 ```
