@@ -1,0 +1,16 @@
+numpy
+six
+terminaltables
+scipy
+cython
+opencv-python
+matplotlib
+pycocotools
+tqdm
+easydict
+chumpy
+pyyaml
+tb-nightly
+future
+ffmpeg-python
+joblib
