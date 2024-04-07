@@ -3,8 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GroundLink" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/GroundLink/Data/amass" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GroundLink/Visualization/aitviewer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/HybrIK/BACKUP/HybrIK" vcs="Git" />
   </component>
 </project>
