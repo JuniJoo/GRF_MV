@@ -109,8 +109,9 @@ Change the `S7` to `S4` to test on different subjects.
 
 ``` python
 cd GroundLink/Visualization
-python visualize.py
+python view_results.py
 ```
+This will visualize the results graph of the predicted GRF and Ground Truth data from GroundLink dataset.
 
 To run Unity feet optimization:
 1, Download SMPL-X Unity add-on from [SMPL-X](https://smpl-x.is.tue.mpg.de/)
