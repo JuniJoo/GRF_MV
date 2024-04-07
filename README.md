@@ -1,8 +1,15 @@
 # GRF_MV:Ground Reaction Force Estimation from Monocular Video
 
-<a href="https://arxiv.org/abs/2304.05690">
-    <img src='https://img.shields.io/badge/Paper-HybrIK--X-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=3CB371&color=40E0D0' alt='Paper PDF'>
+<div align="center">
+<img src="assets/GroundLink_GRF.gif" height="160">
+<img src="assets/HybrIKX_resulted_video_GRF.gif" height="160">
+</div>
+
+<a href="assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf">
+    <img src='https://img.shields.io/badge/Paper-GRF__MV-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=3CB371&color=40E0D0' alt='Paper PDF'>
 </a>
+
+## Project Description
 
 ## Installation instructions
 Installing nessesary environment and dependencies from HybrIK-X.
