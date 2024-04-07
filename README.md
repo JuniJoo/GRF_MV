@@ -10,6 +10,8 @@
 </a>
 
 ## Project Description
+<img src="assets/overview.jpeg">
+This is the repository for the project "GRF_MV: Ground Reaction Force Estimation from Monocular Video" for final year personal project at the University of Birmingham. The project aims to estimate the Ground Reaction Force (GRF) from monocular video using a hybrid approach. The hybrid approach combines the strengths of two state-of-the-art methods, HybrIK-X and physics-based optimisation, to estimate the GRF. The results are evaluated on the GroundLink dataset and compared with the ground truth GRF. Visualisation of the estimated GRF is also provided in Unity.
 
 ## Installation instructions
 Installing nessesary environment and dependencies from HybrIK-X.
