@@ -89,3 +89,37 @@ To produced 3D mesh recovered result from HybrIK-X
 cd HybrIK
 python scripts/demo_video_x.py --video-name examples/dance.mp4 --out-dir res_dance --save-pk --save-img
 ```
+
+To test out the GroundLink pipeline
+``` bash
+cd GroundLink/GRF/scripts
+python preprocess.py
+```
+
+This will save the processed data in `ProcessedData` directory. To run the model on the processed data:
+``` bash
+cd (root)/GroundLink/ProcessedData/S7
+mkdir test
+cp preprocessed/*.pth test/
+
+cd (root)/GroundLink/GRF/scripts
+python predict.py
+```
+Change the `S7` to `S4` to test on different subjects.
+
+``` python
+cd GroundLink/Visualization
+python visualize.py
+```
+
+To run Unity feet optimization:
+1, Download SMPL-X Unity add-on from [SMPL-X](https://smpl-x.is.tue.mpg.de/)
+2, Open Unity and add files and folders in `GRF_NV Unity assets` under assets folder in Unity.
+3, Select scenes from `GRF_NV Unity assets/Scenes` and run the scene.
+
+Please make sure to monitor scene tab for Ground Reaction Force visualization. Forces are extracted to console and saved at log file.
+
+## Citation
+If you find this work useful, please consider citing:
+``` bibtex
+```
