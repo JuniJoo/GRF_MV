@@ -1,6 +1,6 @@
 # GRF_MV:Ground Reaction Force Estimation from Monocular Video
 
-GRF estimated in GroundLink Dataset|GRF estimated from estimated 3D poses from dancing video by HybrIK-X
+GRF estimated in GroundLink Dataset|GRF estimated from 3D mesh recovery by HybrIK-X
 --|--
 <img src="assets/GroundLink_GRF.gif"> | <img src="assets/HybrIKX_resulted_video_GRF.gif">
 
