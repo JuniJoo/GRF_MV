@@ -72,10 +72,7 @@ mv forceplate.py aitviewer/
 ```
 
 GroundLink Dataset can be downloaded from [GroundLink](https://csr.bu.edu/groundlink/) under the `$root/GroundLink` directory. Also download [AMASS](https://amass.is.tue.mpg.de/) and place it under `Data/AMASS` directory.
-GroundLink dataset needs to be downloaded from [GroundLink](https://github.com/hanxingjian/GroundLink) under the `$root/GroundLink` directory.
-
-For Unity [Motion](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER)
-
+For Unity [Motion](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER) can be downloaded. Add them to `Motions` directory under `GRF_NV Unity assets`.
 
 ## Running the demo
 To produced 3D mesh recovered result from HybrIK-X
