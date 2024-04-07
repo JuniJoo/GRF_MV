@@ -1,8 +1,7 @@
 # GRF_MV:Ground Reaction Force Estimation from Monocular Video
 
 
-<img src="assets/GroundLink_GRF.gif">
-<img src="assets/HybrIKX_resulted_video_GRF.gif">
+<img src="assets/GroundLink_GRF.gif"> <img src="assets/HybrIKX_resulted_video_GRF.gif">
 
 
 <div align="center">
