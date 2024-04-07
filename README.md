@@ -1,3 +1,5 @@
+# GRF_MV:Ground Reaction Force Estimation from Monocular Video
+
 <a href="https://arxiv.org/abs/2304.05690">
     <img src='https://img.shields.io/badge/Paper-HybrIK--X-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=3CB371&color=40E0D0' alt='Paper PDF'>
 </a>
@@ -57,9 +59,19 @@ Directory under `$root/GroundLink` should look like this:
     │       ├── moshpp
     │       ├── AMASS
     │   ├── ProcessedData 
-    │   ├── scripts
-    │   └── train_smpl.py
+    │   └── scripts
     └── NN
+
+Models can be downloaded from [SMPL-X](https://smpl-x.is.tue.mpg.de/) official website.
+
+To install aitviewer (locally) with force plate coordinates setup:
+```
+cd (root)/GroundLink/Visualization
+git clone git@github.com:eth-ait/aitviewer.git
+mv forceplate.py aitviewer/
+```
+
+GroundLink Dataset can be downloaded from [GroundLink](https://csr.bu.edu/groundlink/). Also download [AMASS](https://amass.is.tue.mpg.de/) and place it under `Data/AMASS` directory.
 
 
     ├── HybrIK
@@ -67,6 +79,9 @@ Directory under `$root/GroundLink` should look like this:
     ├── README.md
     └── requirements.txt
 GroundLink dataset needs to be downloaded from [GroundLink](https://github.com/hanxingjian/GroundLink) under the `$root/GroundLink` directory.
+
+For Unity [Motion](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER)
+
 
 ## Running the demo
 To produced 3D mesh recovered result from HybrIK-X
