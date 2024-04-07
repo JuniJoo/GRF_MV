@@ -87,7 +87,8 @@ mv forceplate.py aitviewer/
 ```
 
 GroundLink Dataset can be downloaded from [GroundLink](https://csr.bu.edu/groundlink/) under the `$root/GroundLink` directory. Also download [AMASS](https://amass.is.tue.mpg.de/) and place it under `Data/AMASS` directory.
-For Unity [Motion](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER) can be downloaded. Add them to `Motions` directory under `GRF_NV Unity assets`.
+
+For Unity, Pre-processed motions can be downloaded [here](https://bham-my.sharepoint.com/personal/jxk010_student_bham_ac_uk/Documents/Motions?csf=1&web=1&e=YFhQER) additionally. Add them to `Motions` directory under `GRF_NV Unity assets`.
 
 ## Running the demo
 To produced 3D mesh recovered result from HybrIK-X
@@ -120,11 +121,11 @@ python view_results.py
 This will visualize the results graph of the predicted GRF and Ground Truth data from GroundLink dataset.
 
 To run Unity feet optimization:
-1, Download SMPL-X Unity add-on from [SMPL-X](https://smpl-x.is.tue.mpg.de/)
-2, Open Unity and add files and folders in `GRF_NV Unity assets` under assets folder in Unity.
-3, Select scenes from `GRF_NV Unity assets/Scenes` and run the scene.
+- Download SMPL-X Unity add-on from [SMPL-X](https://smpl-x.is.tue.mpg.de/)
+- Open Unity and add files and folders in `GRF_NV Unity assets` under assets folder in Unity.
+- Select scenes from `GRF_NV Unity assets/Scenes` and run the scene.
 
-Please make sure to monitor scene tab for Ground Reaction Force visualization. Forces are extracted to console and saved at log file.
+Please make sure to monitor scene tab for Ground Reaction Force visualization. Force data is extracted to console and saved at log file.
 
 ## Results
 <div align="center">
@@ -144,6 +145,14 @@ Please consider reading the [paper](assets/GRF_MV_Ground_Reaction_Force_Estimati
 ## Acknowledgements
 We would like to thank the authors of HybrIK-X and GroundLink for their work and making it available to the public. We would also like to thank Hyung Jin Chang and Esha Dasgupta for providing the resources and support for this project.
 
+## References
+- [HybrIK-X](https://github.com/Jeff-sjtu/HybrIK)
+- [GroundLink](https://github.com/hanxingjian/GroundLink)
+- [SMPL-X](https://smpl-x.is.tue.mpg.de/)
+- [AMASS](https://amass.is.tue.mpg.de/)
+- [Unity](https://unity.com/)
+
+
 ## Citation
 If you find this work useful, please consider citing:
 ``` bibtex
@@ -151,7 +160,5 @@ If you find this work useful, please consider citing:
 title={GRF_MV: Ground Reaction Force Estimation from Monocular Video},
 author={Juni Katsu and Esha Dasgupta and Hyung Jin Chang},
 year={2023},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
 }
 ```
