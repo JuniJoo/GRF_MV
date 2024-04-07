@@ -142,7 +142,7 @@ The accuracy of our estimtated GRF is evaluated on the GroundLink dataset and co
 Please consider reading the [paper](assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf) for more details.
 
 ## Acknowledgements
-We would like to thank the authors of HybrIK-X and GroundLink for their work and making it available to the public. We would also like to thank the Hyung Jin Chang and Esha Dasgupta for providing the resources and support for this project.
+We would like to thank the authors of HybrIK-X and GroundLink for their work and making it available to the public. We would also like to thank Hyung Jin Chang and Esha Dasgupta for providing the resources and support for this project.
 
 ## Citation
 If you find this work useful, please consider citing:
