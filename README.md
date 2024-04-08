@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<a href="assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf">
+<a href="assets/Juni_Katsu_2246810_GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf">
     <img src='https://img.shields.io/badge/Paper-GRF__MV-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=3CB371&color=40E0D0' alt='Paper PDF'>
 </a>
 </div>
@@ -140,7 +140,7 @@ The accuracy of our estimtated GRF is evaluated on the GroundLink dataset and co
     Estimated Ground Reaction Force (Blue) and Ground Truth data from GroundLink dataset (Red) for two set of motions.
 </div>
 
-Please consider reading the [paper](assets/GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf) for more details.
+Please consider reading the [paper](assets/Juni_Katsu_2246810_GRF_MV_Ground_Reaction_Force_Estimation_from_Monocular_Video.pdf) for more details.
 
 ## Acknowledgements
 We would like to thank the authors of HybrIK-X and GroundLink for their work and making it available to the public. We would also like to thank Hyung Jin Chang and Esha Dasgupta for providing the resources and support for this project.
